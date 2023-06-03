@@ -76,6 +76,9 @@ a {
   color: inherit;
   font-size: inherit;
   display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 ul,

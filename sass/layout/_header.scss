@@ -1,3 +1,13 @@
 @import '../abstract/variables';
 @import '../abstract/mixins';
 @import '../abstract/functions';
+
+.header {
+   padding: 2.4rem 0 0 0;
+
+   &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+}

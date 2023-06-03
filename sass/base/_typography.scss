@@ -7,7 +7,14 @@ html {
 body {
    font-family: $primary-font-family;
    font-size: $body-text-size;
-   font-weight: $font-weight-400;
+   font-weight: $font-weight-500;
    line-height: $body-text-line-height;
    color: $primary-text-color;
+}
+
+@media only screen and (max-width:991.98px) {
+   body {
+      font-size: 1.6rem;
+      line-height: 1.62
+   }
 }

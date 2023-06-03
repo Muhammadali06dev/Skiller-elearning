@@ -1,3 +1,51 @@
 @import '../abstract/variables';
 @import '../abstract/mixins';
 @import '../abstract/functions';
+
+.button {
+   color: $white-color;
+   border-radius: 28px;
+   font-weight: $font-weight-700;
+   transition: all 0.3s ease;
+}
+
+.header__button {
+   padding: 1.4rem 3.2rem 1.4rem 3.1rem;
+   background: $secondary-text-color;
+   z-index: 1;
+
+   &:hover {
+      background: #666CA3
+   }
+}
+
+.home__button {
+   padding: 1.9rem 3.1rem 1.6rem 3.2rem;
+   background: $brand-color;
+   border-radius: 31.5px;
+
+   &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+   }
+}
+
+.footer__button {
+   padding: 1.4rem 3.1rem 1.4rem 3.2rem;
+   background: $linear-gradient;
+
+   &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+   }
+}
+
+@media only screen and (max-width:991.78px) {
+
+   .header__button,
+   .footer__button {
+      padding: 0.9rem 2.4rem 1.1rem;
+   }
+
+   .home__button {
+      padding: 1.5rem 3.7rem 1.5rem 3.8rem;
+   }
+}

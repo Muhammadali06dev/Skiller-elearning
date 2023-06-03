@@ -1,20 +1,19 @@
 //==================COLORS==================//
-$brand-color: #0082F4;
-$primary-text-color: #000000;
-$secondary-text-color: #FFFFFF;
+$brand-color: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+$primary-text-color: #83869A;
+$secondary-text-color: #13183F;
+$white-color: #FFFFFF;
+$linear-gradient: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+
+$primary-font-family: 'Plus Jakarta Sans';
 
 //==================TYPOGRAPHY==================//
-$primary-font-family: 'Roboto';
-
-$font-weight-400: 400;
 $font-weight-500: 500;
 $font-weight-700: 700;
+$font-weight-800: 800;
 
-$body-text-size: 2rem;
-$body-text-line-height: 1.5;
-
-$button-text-size: 2rem;
-$button-line-height: 1.172;
+$body-text-size: 1.8rem;
+$body-text-line-height: 1.56;
 
 //==================WIDTH====================//
-$container-max-width: 1200px;
+$container-max-width: 1110px;

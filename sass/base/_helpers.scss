@@ -1,8 +1,15 @@
 @import '../abstract/variables';
 
 .container {
-   max-width: $container-max-width + 100;
+   max-width: $container-max-width + 78;
    width: 100%;
    margin: 0 auto;
-   padding: 0 5rem;
+   padding: 0 3.9rem;
+}
+
+@media only screen and (max-width:767.98px) {
+   .container {
+      max-width: $container-max-width + 3.2;
+      padding: 0 1.6rem;
+   }
 }
